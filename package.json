@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "site-dev": "yarn --cwd website dev"
+    "site-dev": "yarn --cwd website dev",
+    "site-build": "yarn --cwd website build",
+    "site-install": "yarn --cwd website install"
   },
   "keywords": [],
   "author": "",
