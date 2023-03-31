@@ -2,8 +2,8 @@ import React from 'react'
 
 type Props = {}
 
-export default function index({ }: Props) {
+export default function Home({ }: Props) {
 	return (
-		<div>index</div>
+		<div>...in progress</div>
 	)
 }
