@@ -21,12 +21,12 @@ export default defineConfig({
       remotes: {
         remote_app: gameOfLifeUrl,
       },
-      shared: { react: { singleton: true }, "react-dom": { singleton: true }, tailwindcss: { singleton: true } } as Shared,
+      shared: { react: { singleton: true }, "react-dom": { singleton: true } } as Shared,
     })
   ],
   build: {
     target: "esnext",
     minify: false,
-    cssCodeSplit: false,
+    cssCodeSplit: false,    
   },
 })
